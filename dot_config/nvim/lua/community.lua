@@ -14,7 +14,7 @@ return {
 	{ import = "astrocommunity.motion.mini-move" },
 
 	-- Better w/e/b/ge navigation
-	{ import = "astrocommunity.motion.nvim-spider" },
+	-- { import = "astrocommunity.motion.nvim-spider" }, TODO: Fix luarocks compatibility and uncomment this line
 
 	-- Tab out from parentheses, quotes, and similar contexts
 	{ import = "astrocommunity.motion.tabout-nvim" },
