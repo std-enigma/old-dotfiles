@@ -35,6 +35,9 @@ return {
 	-- Tokyonight colorscheme
 	{ import = "astrocommunity.colorscheme.tokyonight-nvim" },
 
+	-- Rosepine colorscheme
+	{ import = "astrocommunity.colorscheme.rose-pine" },
+
 	-- Editor
 	-- File explorer as a normal buffer
 	{ import = "astrocommunity.file-explorer.oil-nvim" },

@@ -43,4 +43,13 @@ return {
 			transparent = not vim.g.neovide, -- enable transparency
 		},
 	},
+
+	-- Customize rose-pine colorscheme
+	{
+		"rose-pine/neovim",
+		---@type rosepine.Options
+		opts = {
+			styles = { transparency = not vim.g.neovide },
+		},
+	},
 }
