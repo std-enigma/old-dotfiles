@@ -85,4 +85,7 @@ return {
 
 	-- Cache and setup the last used colorscheme
 	{ import = "astrocommunity.recipes.cache-colorscheme" },
+
+	-- Display diagnostic virtual lines only on the active/current line
+	{ import = "astrocommunity.recipes.diagnostic-virtual-lines-current-line" },
 }
