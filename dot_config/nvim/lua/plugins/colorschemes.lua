@@ -52,4 +52,20 @@ return {
 			styles = { transparency = not vim.g.neovide },
 		},
 	},
+
+	{
+		"bluz71/vim-moonfly-colors",
+		dependencies = {
+			{
+				"AstroNvim/astrocore",
+				opts = {
+					options = {
+						g = {
+							moonflyTransparent = not vim.g.neovide,
+						},
+					},
+				},
+			},
+		},
+	},
 }

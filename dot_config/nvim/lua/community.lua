@@ -38,6 +38,9 @@ return {
 	-- Rosepine colorscheme
 	{ import = "astrocommunity.colorscheme.rose-pine" },
 
+	-- MoonflyColors colorscheme
+	{ import = "astrocommunity.colorscheme.vim-moonfly-colors" },
+
 	-- Editor
 	-- File explorer as a normal buffer
 	{ import = "astrocommunity.file-explorer.oil-nvim" },
